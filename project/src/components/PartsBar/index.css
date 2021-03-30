@@ -1,0 +1,114 @@
+/** 配件 **/
+.wiring {
+	margin: 20px auto 0 auto;
+}
+.wiring_left {
+	float: left;
+	width: 234px;
+	height: 614px;
+}
+.wiring_left>a {
+	width: 234px;
+	height: 300px;
+	display: block;
+}
+.wiring_left>a:last-child {
+	margin-top: 14px;
+}
+.wiring_left>a>img {
+	width: 100%;
+}
+.wiring_right {
+	width: 992px;
+	float: right;
+	overflow: hidden;
+}
+.goods_item_list_desc {
+	width: 100%;
+	height: 0;
+	background: #FF6700;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 0 20px;
+	font-size: 12px;
+	overflow: hidden;
+}
+.goods_item_list_desc>.goods_item_list_desc_con {
+	line-height: 18px;
+	color: rgba(255,255,255,0.9);
+	margin-top: 9px;
+}
+.goods_item_list_desc>span {
+	display: block;
+	color: rgba(255,255,255,0.7);
+	margin-top: 10px;
+}
+.goods_item_list:hover .goods_item_list_desc {
+	height: 80px;
+	transition:height 0.3s linear 0s;
+}
+/* 最后查看更多 */
+.goods_item_list_last {
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 14px;
+	margin-top: 14px;
+}
+.goods_item_last_list {
+	width: 234px;
+	background: #FFF;
+}
+.goods_item_last_list:hover {
+	box-shadow: 0px 10px 20px #DDD;
+	transform: translate(0,-3px);
+	transition:transform 0.5s linear 0s;
+}
+.goods_item_last_list:last-child {
+	margin-top: 14px;
+}
+.goods_item_last_list_left {
+	width: 117px;
+	height: 143px;
+	float: left;
+	box-sizing: border-box;
+	padding: 35px 0 0 20px;
+}
+.goods_item_last_list_left>a {
+	color: #333;
+	display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 40px;
+}
+.goods_item_last_list_left>span {
+	color: #ff6700;
+}
+.goods_item_last_list_right {
+	width: 117px;
+	height: 143px;
+	float: right;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.goods_item_last_list_right>img {
+	width: 80px;
+	height: 80px;
+}
+.goods_item_last_list_left>a.more>p {
+	font-size: 18px;
+	line-height: 10px;
+	margin-top: 20px;
+}
+.goods_item_last_list_left>a.more>label {
+	color: #b0b0b0;
+	font-size: 12px;
+}
+.goods_item_last_list_right>a>i {
+	font-size: 48px;
+	color: #FF6700;
+}

@@ -1,0 +1,51 @@
+.bottom{
+    margin-top: 0;
+    padding-top: 100px;
+    position: relative;
+    z-index: 4;
+    padding-bottom: 20px;
+}
+.bottom-area{
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 19.2px;
+    position: relative;
+}
+.bottom-area>ul{
+    width: 334px;
+    height: 19.2px;
+    overflow: hidden;
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    color: #666;
+}
+.bottom li{
+    float: left;
+    list-style: none;
+}
+.bottom a{
+    padding: 0 10px;
+    width: 28px;
+    height: 19.2px;
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+.bottom-area>ul>li>.bottom-select{
+    color: #333;
+}
+.bottom-area>ul>li>a:hover{
+    color: #333;
+}
+.bottom-safe{
+    padding: 10px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}

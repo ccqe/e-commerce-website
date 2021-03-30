@@ -1,0 +1,168 @@
+/** 主体导航 **/
+.main_nav {
+	min-width: 1226px;
+	margin: 0 auto;
+	height: 100px;
+	display: flex;
+	align-items: center;/*垂直居中*/
+	position: relative;
+}
+.logo {
+	width: 55px;
+	height: 55px;
+	display: flex;
+	/*上下左右居中*/
+	justify-content: space-around;
+	align-items: center;
+	background: #ff6700;
+}
+.nav {
+	margin-left: 179px;
+}
+.nav>ul>li {
+	float: left;
+}
+.nav>ul>li>a {
+	font-size: 16px;
+	height: 88px;
+	line-height: 88px;
+	padding: 0 20px;
+	color: #333;
+	display: block;
+}
+.nav>ul>li>a:hover {
+	color: #ff6700;
+}
+.nav>ul>li>a:first-child {
+	padding-left: 0;
+}
+/*主体导航滑动显示内容*/
+.nav_item {
+	width: 100%;
+	font-size: 12px;
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	top: 87px;
+	box-shadow:2px 2px 5px  #f0f0f0;
+	height: 0;
+	overflow: hidden;
+	transition: height 0.5s linear;
+	background: #FFF;
+}
+.nav>ul>li:hover .nav_item {
+	height: 240px;
+}
+.nav_item_con {
+	margin: 0 auto;
+}
+.nav_item_con>ul>li {
+	float: left;
+	position: relative;
+	text-align: center;
+	height: 240px;
+	padding: 0 20px;
+}
+.nav_item_con>ul>li+li::before {
+	content: "";
+	width: 1px;
+	height: 100px;
+	background: #E0E0E0;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	margin-top: -65px;
+}
+
+.nav_item_con>ul>li>a {
+	display: block;
+}
+.nav_item_con>ul>li>a.nav_item_con_img {
+	margin-top: 40px;
+}
+.nav_item_con>ul>li>a>img {
+	width: 160px;
+}
+.nav_item_con>ul>li>a.nav_item_con_name {
+	margin-top: 20px;
+	color: #333;
+}
+.nav_item_con>ul>li>a.nav_item_con_name:hover {
+	color: #ff6700;
+}
+.nav_item_con>ul>li>p {
+	line-height: 30px;
+	color: #ff6700;
+}
+/* 搜索 */
+.search_box {
+	position: absolute;
+	right: 0;
+}
+.search_box .search {
+	width: 223px;
+	height: 48px;
+	line-height: 48px;
+	box-sizing: border-box;
+	border: 1px solid #e0e0e0;
+	background: #FFF;
+	position: absolute;
+	right: 48px;
+	padding: 0 10px;
+}
+.search_box .search:focus {
+	border: 1px solid #FF6700;
+}
+/* 搜索下拉框显示 */
+.search_box .search:focus~.datalist {
+	display: block;
+}
+/* 默认值隐藏 */
+.search_box .search:focus~.search_default {
+	display: none;
+}
+.search_box .search:focus+button {
+	border: 1px solid #FF6700;
+	border-left: 0;
+}
+.search_box button {
+	width: 48px;
+	height: 48px;
+	right: 0;
+	background: #FFF;
+	box-sizing: border-box;
+	border: 1px solid #e0e0e0;
+	border-left: 0;
+}
+.search_box button:hover {
+	cursor: pointer;
+	color: #FFF;
+	background: #ff6700;
+	border: 1px solid #ff6700;
+	border-left: 0;
+}
+
+/* 搜索下拉列表 */
+.datalist {
+	font-size: 12px;
+	position: absolute;
+	z-index: 3;
+	top: 48px;
+	width: 223px;
+	right: 48px;
+	border: 1px solid #FF6700;
+	border-top: 0;
+	box-sizing: border-box;
+	display: none;
+	background: #FFF;
+}
+.datalist>ul>li>a {
+	color: #333;
+	display: block;
+	padding: 10px;
+}
+
+.datalist>ul>li>a:hover {
+	background: #fafafa;
+}

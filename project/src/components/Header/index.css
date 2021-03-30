@@ -1,0 +1,135 @@
+/** 顶部导航css **/
+.header {
+	width: 100%;
+	height: 40px;
+	background: #333;
+	color: #b0b0b0;
+	min-width: 1226px;
+	font-size: 12px;
+}
+.header_bar {
+	margin: 0 auto;
+	height: 40px;
+}
+/* 左侧菜单 */
+.header_nav {
+	height: 100%;
+	width: 850px;
+	float: left;
+}
+.header_nav>ul>li,.user_action>ul>li {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+.header_nav>ul>li>a,.user_action>ul>li>.link {
+	color: #b0b0b0;
+	padding: 0 8px;
+	border-left: 1px solid #424242;
+}
+.header_nav>ul>li:first-child>a {
+	padding-left: 0;
+}
+.header_nav>ul>li:last-child>a{
+	border-right: 0;
+}
+.header_nav>ul>li>a:hover,.user_action>ul>li>.link:hover {
+	color: #FFF;
+}
+
+/* 右侧登录、注册 */
+.user_action {
+	height: 100%;
+	padding: 0 5px;
+	float: right;
+}
+.user_content{
+	position: relative;
+	width: 110px;
+}
+.user_number{
+	display: block;
+	color: #b0b0b0;
+	width: 100%;
+	text-align: center;
+}
+.user_content_info{
+	position: absolute;
+	width: 110px;
+	height: 0px;
+	text-align: center;
+	top: 40px;
+	z-index: 1;
+	right: 0;
+	background: #FFF;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+	transition: height 0.5s linear;
+	overflow: hidden;
+}
+.user_content_info>a{
+	display: block;
+	height: 30px;
+	text-align: center;
+	color: #b0b0b0;
+}
+.user_content:hover .user_content_info{
+	height: 160px;
+}
+.user_number:hover{
+	color: #ff6700;
+}
+.user_content_info>a:hover{
+	color: #ff6700;
+	background: #f5f5f5;
+}
+.hidden{
+	display: none;
+}
+.iconjiantoudown{
+	font-size: small;
+	margin-left: 10px;
+}
+
+/* 右侧购物车 */
+.header_shopcart {
+	float: right;
+	position: relative;
+}
+.header_shopcart .shopcart_logo>a {
+	transition: background 0.1s linear;
+	position: relative;
+	z-index: 2;
+}
+.header_shopcart:hover .shopcart_logo>a {
+	color: #ff6700;
+	background: rgba(255,255,255,1);
+}
+.shopcart_logo>a {
+	display: block;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 20px;
+	background: #424242;
+	color: #b0b0b0;
+}
+/* 右侧购物车滑动显示内容 */
+.shopcart-info {
+	position: absolute;
+	width: 340px;
+	height: 0px;
+	line-height: 88px;
+	text-align: center;
+	top: 40px;
+	z-index: 1;
+	right: 0;
+	background: #FFF;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+	transition: height 0.5s linear;
+	overflow: hidden;
+}
+.header_shopcart:hover .shopcart-info {
+	height: 89px;
+}
+.icongouwuche1{
+	font-size: medium;
+}

@@ -1,0 +1,155 @@
+/** 小米闪购 **/
+.flashover {
+	margin: 0 auto;
+	margin-top: 14px;
+}
+.flashover_a {
+	float: right;
+	width: 70px;
+	height: 26px;
+	line-height: 26px;
+	margin-top: 12px;
+}
+.flashover_a > a:first-child {
+	border-right: 0;
+}
+.flashover_a > a {
+	float: left;
+	display: block;
+	width: 35px;
+	color: #b0b0b0;
+	font-size: 22px;
+	text-align: center;
+	border: 1px solid #b0b0b0;
+	box-sizing: border-box;
+}
+.flashover_a > a:hover{
+	color:#ff6700;
+}
+.list_title {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.flashover_list {
+	height: 340px;
+	position: relative;
+	width: 1226px;
+}
+#shangou {
+	transition: all 2s 1s linear;
+}
+.flashover_item_con {
+	width: 992px;
+	height: 340px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+}
+.flashover_item_con_div {
+	height: 340px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.flashover_item {
+	width: 234px;
+	height: 340px;
+	float: left;
+}
+.countdown {
+	background: #f1eded;
+	text-align: center;
+}
+.countdown_title {
+	font-size: 21px;
+	color: #e53935;
+	line-height: 100px;
+}
+.countdown>i {
+	font-size: 50px;
+	color: #e53935;
+}
+.countdown_desc {
+	margin-top: 60px;
+	color: rgba(0,0,0,0.54);
+	font-size: 15px;
+}
+.countdown_time {
+	width: 176px;
+	height: 48px;
+	margin: 30px auto;
+}
+.countdown_time>label {
+	height: 48px;
+	display: block;
+	float: left;
+	line-height: 48px;
+	text-align: center;
+}
+.countdown_time>label.countdown_time_item {
+	width: 48px;
+	background: #605751;
+	font-size: 26px;
+	color: rgba(255,255,255,0.9);
+}
+.countdown_time>label.countdown_item_dot {
+	color: #605751;
+	font-size: 26px;
+	font-weight: 600;
+	width: 16px;
+}
+.flashover_goodlist {
+	background: white;
+	margin-left: 14px;
+}
+.goodlist_content {
+	text-align: center;
+	position: relative;
+}
+.goodlist_content>img {
+	width: 160px;
+	height: 160px;
+	margin-top: 30px;
+	z-index: -1;
+}
+.goodlist_content>p.good_title {
+    margin: 30px 20px 3px;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #212121;
+}
+.goodlist_content>p.good_desc {
+	height: 18px;
+    margin: 12px 20px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #b0b0b0;
+}
+.goodlist_content>p.good_price {
+	color: #ff6709;
+}
+.goodlist_content>p.good_price>label {
+	text-decoration: line-through;
+	color: #b0b0b0;
+	margin-left: 5px;
+}
+.goodlist1 {
+	border-top: 1px solid #ffac13;
+}
+.goodlist2 {
+	border-top: 1px solid #83c44e;
+}
+.goodlist3 {
+	border-top: 1px solid #2196f3;
+}
+.goodlist4 {
+	border-top: 1px solid #e53935;
+}

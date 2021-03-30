@@ -1,0 +1,68 @@
+body,html {
+	font-size: 14px; 
+	font-family: Arial,"Microsoft Yahei",sans-serif;
+}
+a{text-decoration: none;}
+input:focus,button:focus{outline: none}
+input{-webkit-appearance: none;}
+.con_width {
+	width: 1226px;
+}
+
+.goods {
+	background: #F5F5F5;
+	padding: 5px 0 50px 0;
+	margin-top: 40px;
+	min-width: 1226px
+}
+/* 标题部分 */
+.goods h1>a {
+	float: right;
+	font-size: 16px;
+	color: #333333;
+	font-weight: 300;
+	transition: all .4s;
+}
+.goods h1>a>i {
+	font-size: 20px;
+	margin-left: 8px;
+	font-weight: normal;
+}
+.goods h1>a:hover {
+	color: #FF6700;
+}
+.goods h1>ul {
+	float: right;
+}
+.goods h1>ul>li {
+	float: left;
+	padding: 0 10px;
+}
+.goods h1>ul>li>a {
+	font-size: 16px;
+	color: #424242;
+	display: block;
+	height: 45px;
+	font-weight: 300;
+	transition: all .4s;
+}
+.goods h1>ul>li:last-child>a {
+	padding-right: 0;
+}
+.goods h1>ul>li.active>a {
+	color: #FF6700;
+	border-bottom: 2px solid #FF6700;
+}
+
+/** 清除浮动 **/
+.clearfix:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+.show {
+	display: block;
+}
+.hide {
+	display: none;
+}

@@ -1,0 +1,227 @@
+.h-panel,.login-banner {
+    width: 1130px;
+    margin: 0 auto;
+}
+.h-logo {
+    width: 200px;
+    height: 98px;
+    background: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png) no-repeat;
+}
+.login{
+    background-image: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/72644d9b8031286de3cc74e151aefd90.jpg);
+    height: 559px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    overflow: hidden;
+}
+.login-text{
+    width: 410px;
+    height: 524px;
+    background: white;
+    position: absolute;
+    left: 915px;
+    top: 35px;
+}
+.form-content{
+    position: relative;
+    width: 410px;
+    height:432px;
+}
+.form-content>div{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.account,.saoma{
+    display: none;
+    width: 410px;
+    height:432px;
+}
+.show{
+    display: block;
+}
+/* .form-content>.account{
+    cursor: pointer;
+} */
+.text-nav{
+    padding: 25px 0;
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+    height: 32px;
+}
+.text-nav>.active{
+    color:orange;   
+}
+.text-nav>span{
+    color: #e0e0e0;
+    margin: 0 35px 0 42px;
+}
+.text-nav a{
+    color: #666;
+    text-decoration: none;
+}
+.text-input{
+    height: 256.2px;
+}
+.text-input>form{
+    width: 348px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-input>form>input{
+    width: 316px;
+    height: 22px;
+    padding: 13px 16px 13px 14px;
+    border: 1px solid #e0e0e0;
+}
+.text-input>form>input:nth-child(2){
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+.text-input>form>button{
+    border-style: none;
+    width: 348px;
+    height: 50px;
+    background: #f56600;
+    color: white;
+}
+.account-register{
+    width: 348px;
+    height: 49.2px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+.account-register>a{
+    display: block;
+    text-decoration: none;
+    color: #f56600;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+.account-register-forget{
+    margin-top: 30px;
+    text-align: center;
+}
+.account-register-forget>a{
+    text-decoration: none;
+    color: rgb(153, 153, 153);  
+}
+.account-register-forget>a:hover{
+    color: #f56600;  
+}
+.account-register-forget>span{
+    color: rgb(153, 153, 153);
+    margin: 0 5px;
+}
+.text-other{
+    width: 348px;
+    height: 97px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 78px;
+}
+.text-other>div{
+    height: 29.2px;
+    color: #e0e0e0;
+    /* border-style: none; */
+    font-size: 14px;
+    position: relative;
+}
+.line{
+    height: 1px;
+    background: #e0e0e0;
+    width: 132px;
+    float: left;
+    margin-top: 9px;
+}
+.other-title{
+    /* border-top: 1px solid #e0e0e0; */
+    /* padding-top: 10px; */
+    /* text-align:center; */
+    height:19.2px;
+    float: left;
+}
+.other-title>a{
+    height: 19.2px;
+    font-size: 14px;
+    color: #e0e0e0;
+    text-decoration: none;
+}
+.iconf{
+    margin: 0 auto;
+    width: 348px;
+    text-align: center;
+}
+.iconf a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin: 4px 14px 0;
+}
+.iconf i{
+    width: 18px;
+    height: 18px;
+    background-image: url('./images/icons_type.png');
+    margin: auto;
+    position: absolute;
+    top: 0;left: 0;bottom: 0;right: 0;
+}
+.qq{
+    background-position-x: -19px;
+}
+.vb{
+    background-position-x: -38px;
+}
+.iconf>a>.zb{
+    background-position-x: -56px;
+    width: 25px;
+}
+.iconf>a>.vx{
+    background-position-x: -83px;
+    width: 24px;
+}
+.a-qq,.a-zb{
+    background: #0288D1;
+}
+.a-vb{
+    background: #D32F2F;
+}
+.a-vx{
+    background: #00D20D;
+}
+.saoma-hint{
+    margin-top: 120px;
+    text-align: center;
+}
+.saoma-mask{      
+    width: 180px;
+    height: 180px;
+    margin: 20px auto;
+    text-align: center;
+    z-index: 110;   
+}
+.saoma-app{
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+.saoma-app>p{
+    margin-top: 5px;
+}
+.saoma-app a{
+    text-decoration: none;
+    color: #666;
+}
+.saoma-app>a:nth-child(2){
+    color: #f56600;
+}

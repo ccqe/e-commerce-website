@@ -1,0 +1,66 @@
+/** 视频 **/
+.video {
+	margin: 20px auto 0 auto;
+}
+.video_item {
+	width: 296px;
+	height: 285px;
+	float: left;
+	margin-left: 14px;
+	background: #FFF;
+}
+.video_item:first-child {
+	margin-left: 0;
+}
+.video_item:hover {
+	box-shadow: 0px 10px 20px #DDD;
+	transform: translate(0,-3px);
+	transition:transform 0.5s linear 0s;
+}
+.video_item>.video_item_img {
+	position: relative;
+	width: 296px;
+	height: 180px;
+}
+.video_item>.video_item_img img {
+	width: 100%;
+	height: 100%;
+}
+.video_item>.video_item_img>.video_icon {
+	width: 30px;
+	height: 20px;
+	border: 2px solid #FFF;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	text-align: center;
+}
+.video_item>.video_item_img:hover>.video_icon {
+	border: 2px solid #FF6700;
+	background: #FF6700;
+}
+.video_item>.video_item_img>.video_icon>i {
+	font-size: 24px;
+	line-height: 20px;
+}
+.video_item>.video_name {
+    margin: 30px 0 15px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.video_item>.video_name>a {
+	color: #333;
+}
+.video_item>.video_name>a:hover {
+	color: #ff6700;
+}
+.video_item>.video_desc {
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+}
